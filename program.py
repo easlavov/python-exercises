@@ -17,10 +17,8 @@ def task(arg):
     print unic
 
 def task2(arg):
-    if arg == 'power' and len(arg) > 2:
-        print 'OK'
-    else:
-        print 'Not Ok'
+    tuple = (1, 2, 'hi')
+    print tuple
 
 def main():
     task2('powerr')
