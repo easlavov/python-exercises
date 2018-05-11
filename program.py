@@ -21,6 +21,9 @@ def task2(arg):
     print tuple
 
 def main():
+    word = 'a'
+    das = word[-1]
+        
     task2('powerr')
     # task(sys.argv[1])
     # print repeat(sys.argv[1], 10, True)
