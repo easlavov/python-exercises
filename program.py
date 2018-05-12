@@ -1,10 +1,9 @@
 import sys
 
 def main():
-    d = {1:3, 2:5, 3:15}
-    d[-2] = 22
-    sort = sorted(d)
-    print sorted(d.items())
+    path = 'D:\\Programming\\python-exercises\\google-python-exercises\\basic\\alice.txt'
+    # print_words(path)
+    # print_top(path)
 
 if __name__ == '__main__':
     main()
